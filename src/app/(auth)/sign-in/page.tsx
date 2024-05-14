@@ -1,7 +1,6 @@
 const SingIn = () => {
     return (
-        <div>SingIn
-        </div>
+        <div>SingIn</div>
     )
 }
 
