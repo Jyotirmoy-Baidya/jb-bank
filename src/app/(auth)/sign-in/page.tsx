@@ -1,7 +1,11 @@
-const SingIn = () => {
+import AuthFormCombined from "@/components/AuthForm"
+
+const SignIn = () => {
     return (
-        <div>SingIn</div>
+        <section className="flex-center size-full max-sm:px-6">
+            <AuthFormCombined type="sign-in" />
+        </section>
     )
 }
 
-export default SingIn
+export default SignIn
